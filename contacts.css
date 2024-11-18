@@ -1,0 +1,168 @@
+html {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0 ;
+    padding: 0 ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url(img/img.kafe.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1460px;
+    margin: 0 auto;
+}
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 30px;
+}
+
+.header .logo .head-img1  {
+    width: 128px;
+    height: 47px;
+}
+
+.header .logo .head-img {
+    position: relative;
+    width: 128px;
+    height: 61px;
+    bottom: 10px;
+}
+
+.spisok {
+    margin-top: 10px;
+}
+
+
+.header .logo{
+    display: flex;
+    gap: 35px;
+    position: relative;
+    left: 70px;
+    
+}
+.header .logo img{
+    width: 100px;
+    height: 50px;
+}
+
+.header .spisok a{
+    text-decoration: none;
+    color: white;
+    margin: 0 0 0 35px;
+    
+}
+
+.gruppa img {
+    margin-top: 8px;
+    padding: 0 20px 0 10px;
+}
+
+.header .gruppa {
+    position: relative;
+    gap: 300px;
+    left: -40px;
+}
+
+.gruppa .btn-header {
+    position: relative;
+    height: 42px;
+    width: 171px;
+    bottom: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.map {
+    margin-left: 800px;
+    margin-top: -600px;
+    width: 500px;
+}
+
+.con {
+    color: white;
+    position: relative;
+    left: 115px;
+    top: 100px;
+}
+
+.ptg {
+    position: relative;
+    top: 30px;
+    margin-bottom: 60px;
+}
+
+.ptg img {
+    width: 33.36;
+    height: 27.98;
+}
+
+.ptg p {
+    margin-left: 50px;
+    margin-top: -30px;
+}
+
+.num {
+    position: relative;
+    top: 20px;
+    margin-bottom: 50px;
+}
+
+.num li {
+    margin-left: 20px;
+    list-style: none;
+    text-indent: -1em;
+}
+
+.num li::before {
+    content: '\25ba';
+    padding-right: 5px;
+    color: white;
+}
+
+.baum {
+    position: relative;
+    top: 20px;
+    margin-bottom: 50px;
+}
+
+.baum li {
+    margin-left: 20px;
+    list-style: none;
+    text-indent: -1em;
+}
+
+.baum li::before {
+    content: '\25ba';
+    padding-right: 5px;
+    color: white;
+}
+
+.rush {
+    position: relative;
+    top: 20px;
+    margin-bottom: 50px;
+}
+
+.rush li {
+    margin-left: 20px;
+    list-style: none;
+    text-indent: -1em;
+}
+
+.rush li::before {
+    content: '\25ba';
+    padding-right: 5px;
+    color: white;
+}
